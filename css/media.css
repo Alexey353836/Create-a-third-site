@@ -1,12 +1,27 @@
 @media screen and (max-width:1100px) {
+    /* nav */
     .main-container{
         max-width: 800px;
     }
     .header-container{
         grid-template-columns: 1fr 2fr 1fr;
     }
+    /* banner */
+    .banner-content-header{
+        font-size: 25px;
+        width: 200px;
+    }
+    .banner-leaest {
+        width: 170px;
+    }
+    .banner-bottom-text {
+        left: 15px;
+        bottom: 15px;
+        font-size: 16px;
+    }
 }
 @media screen and (max-width:800px){
+    /* nav */
     .header-nav, .header-social-media{
         display: none;
     }
@@ -21,5 +36,64 @@
    .header-container{
     grid-template-columns: 1fr 11fr;
     padding: 40px 0;
+    }
+     /* banner */
+     .banner-content-header{
+        font-size: 18px;
+        width: 180px;
+    }
+    .banner-leaest {
+        width: 160px;
+    }
+    /* .banner-bottom-text {
+        left: 15px;
+        bottom: 15px;
+        font-size: 16px;
+    } */
 }
+@media screen and (max-width:700px){
+       /* banner */
+       .banner-content-header{
+        font-size: 16px;
+        /* width: 180px; */
+    }
+    .banner-leaest {
+        width: 120px;
+    }
+       .banner-bottom-text {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:600px){
+    /* nav */
+    .header-container {
+        padding: 30px 0px;
+        grid-template-columns: 1fr 5fr;
+    }
+    /* banner */
+    .banner {
+        grid-template-columns: 1fr;
+    }
+    .banner-content {
+        display: grid;
+        padding-left: 0px;
+        grid-template-areas:
+        "header"
+        "latest"
+        "insta";
+        gap: 8px 0;
+    }
+    .banner-content-header {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .banner-leaest {
+        width: 100%;
+    }
+    .banner-bottom-text {
+        left: 25px;
+        bottom: 20px;
+        font-size: 28px;
+        font-weight: bold;
+    }
 }
