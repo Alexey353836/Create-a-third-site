@@ -6,6 +6,7 @@
     .header-container{
         grid-template-columns: 1fr 2fr 1fr;
     }
+    
     /* banner */
     .banner-content-header{
         font-size: 25px;
@@ -37,6 +38,7 @@
     grid-template-columns: 1fr 11fr;
     padding: 40px 0;
     }
+
      /* banner */
      .banner-content-header{
         font-size: 18px;
@@ -45,17 +47,11 @@
     .banner-leaest {
         width: 160px;
     }
-    /* .banner-bottom-text {
-        left: 15px;
-        bottom: 15px;
-        font-size: 16px;
-    } */
 }
 @media screen and (max-width:700px){
        /* banner */
        .banner-content-header{
         font-size: 16px;
-        /* width: 180px; */
     }
     .banner-leaest {
         width: 120px;
@@ -70,6 +66,7 @@
         padding: 30px 0px;
         grid-template-columns: 1fr 5fr;
     }
+
     /* banner */
     .banner {
         grid-template-columns: 1fr;
@@ -95,5 +92,28 @@
         bottom: 20px;
         font-size: 28px;
         font-weight: bold;
+    }
+
+    /* subscribe  */
+    .subscribe-header {
+        font-size: 26px;
+    }
+    .subscribe-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe-input {
+        height: 40px;
+    }
+    .subscribe-meil {
+        width: 220px;
+    }
+    .subscribe-btn{
+        margin-top: 20px;
+        width:40%;
+        padding: 10px 5px;
+        letter-spacing: normal;
+        font-size: 13px;
     }
 }
